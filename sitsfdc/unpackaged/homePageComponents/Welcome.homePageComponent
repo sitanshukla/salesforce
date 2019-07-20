@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>Welcome to Sitanshu Org, In case of any help please contact to me on &lt;a href=&quot;https://www.google.com/&quot;&gt;sittu0@gmail.com&lt;/a&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>wide</width>
+</HomePageComponent>

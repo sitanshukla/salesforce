@@ -1,0 +1,3 @@
+<apex:page controller="xmlPage" contentType="text/xml;filename.xml">
+  <apex:outputText escape="false" value="{!xmlContent}" />
+</apex:page>

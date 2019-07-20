@@ -1,0 +1,8 @@
+<apex:page standardController="Account" extensions="saveRecord" recordSetVar="accounts">
+ <apex:form >
+     <apex:pageBlock id="pb">
+          <apex:inputField value="{!accobj.name}"/>
+          <apex:commandButton value="Save" action="{!save}"/>
+     </apex:pageBlock>
+ </apex:form>
+</apex:page>

@@ -1,0 +1,12 @@
+<aura:component >
+	<aura:attribute name="num1" type="Integer"/>
+    <aura:attribute name="num2" type="Integer"/>
+    <aura:attribute name="num3" type="Integer"/><br/>
+    <ui:inputNumber label="Number 1 " value="{!v.num1}"/><br/>
+    <ui:inputNumber label="Number 2 " value="{!v.num2}"/><br/>
+    <ui:outputNumber value="{!v.num3}"/>
+    <ui:button press="{!c.addAction}" label="Addition" />
+    <ui:button press="{!c.substractionAction}" label="Substraction" />    
+    <ui:button press="{!c.multiplicationAction}" label="Multiplication" />    
+    <ui:button press="{!c.divisionAction}" label="Division" />
+</aura:component>

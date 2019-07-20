@@ -1,0 +1,6 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations {!$User.FirstName&' '&$User.LastName} </h1>
+  This is your new Page: currentuser
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

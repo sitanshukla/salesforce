@@ -1,0 +1,5 @@
+<apex:page controller="xmlPage">
+  <apex:form >
+    <apex:commandButton action="{!downloadXML}" value="Download!" />
+  </apex:form>
+</apex:page>
